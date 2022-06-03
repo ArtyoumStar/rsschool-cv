@@ -8,7 +8,7 @@
 - Phone: +375255141820
 - Mail: deathgun@tut.by
 - GitHub: ArtyoumStar
-- Discord: Artyom(@ArtyomStar)
+- Discord: Artyom(@ArtyoumStar)
 
 ***
 
@@ -32,5 +32,29 @@ function multiply(a, b){
 return a * b
 }
 ```
+
+***
+
+#### Work experience:
+
+Nothing yet
+
+***
+
+#### Education:
+
+> Polotsk State Agrarian and Economic College
+
+***
+
+#### Courses:
+
+RS School JS/FE Pre-School 2022Q2 (in the process)
+
+***
+
+#### Languages:
+
+- Russian
 
 ***
