@@ -10,6 +10,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
 }
 
 .container {
@@ -21,4 +30,29 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
+    list-style: none;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-link a:hover {
+    color: #4d2323; 
+}
+
+.header {
+    background-color: #3538359d;
+}
+
+
+
+
+
+
+
+
+
+
