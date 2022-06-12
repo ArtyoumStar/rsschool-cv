@@ -1,1 +1,6 @@
-/* css */
+* {
+    box-sizing: border-box;
+}
+.header {
+    border: 1px solid red;
+}
