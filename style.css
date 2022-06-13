@@ -61,6 +61,13 @@ body {
 
 }
 
+.nav-link:hover::after {
+    opacity: 1;
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
 .header {
     background-color: #3538359d;
 }
@@ -68,6 +75,15 @@ body {
 @media (max-width: 1440px) {
     .container {
       padding: 0 20px;
+    }
+}
+
+@keyframes slidein {
+    from {
+      width: 0;
+    }
+    to {
+      width: calc(100% - 24px);
     }
 }
 
@@ -103,6 +119,43 @@ body {
     text-align: center;
     text-transform: uppercase;
 }
+
+.section {
+    width: calc(50%-20);
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid green;
+}
+
+.section-title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: aqua;
+}
+
+.section-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section-item {
+    position: relative;
+    margin: 0;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+.section-item a {
+    text-decoration: none;
+    color: #ed8013;
+    transition: 0.5s;
+}
+
+
 
 
 
