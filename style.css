@@ -18,7 +18,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: #4d2323;
+    color: #2b006c;
 }
 
 .main {
@@ -95,6 +95,14 @@ body {
     transition: 0.3s;
 }
 
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
 
