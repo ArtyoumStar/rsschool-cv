@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assests/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
-  <!-- Hello world   -->
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+            <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+            <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile"><img src="./assests/img/qqq.jpg" alt="avatar" class="section-profile-logo">
+          <div class="section-profile-title">
+            <h1 class="section-title main-title">Starykov Artyom</h1>
+          </div>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts information:</h2>
+          <ul class="section-list">
+            <li class="section-item contacts-item" title="location">Minsk, Belarus</li>
+            <li class="section-item contacts-item" title="phone">Phone: +375255141820</li>
+            <li class="section-item contacts-item" title="mail">Mail:
+              <a href="mailto: deathgun@tut.by">deathgun@tut.by</a>
+            </li>
+            <li class="section-item contacts-item" title="github">GitHub:
+              <a href="https://github.com/ArtyoumStar"> ArtyoumStar</a>
+            </li>
+            <li class="section-item contacts-item" title="discord">Discord: Zaza#2480</li>
+          </ul>
+        </section>
+        <section class="section" id="aboutme">
+          <h2 class="section-title">About me:</h2>
+          <p>I'm 28 years old. Worked in a factory before being made redundant. At the moment I want to learn front-end development. I think that RS School is suitable for this.</p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills:</h2>
+          <ul class="section-list">
+            <li class="section-item">HTML</li>
+            <li class="section-item">CSS</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code Example:</h2>
+<pre class="pre"><code>
+function multiply(a, b){
+return a * b
+}
+</code></pre>
+        </section>
+        <section class="section" id="work">
+          <h2 class="section-title">Work experience:</h2>
+          <p>Nothing yet</p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education:</h2>
+          <p>Polotsk State Agrarian and Economic College</p>
+        </section>
+        <section class="section section-cour" id="courses">
+          <h2 class="section-title">Courses:</h2>
+          <p>RS School JS/FE Pre-School 2022Q2 (in the process)</p>
+        </section>
+        <section class="section section-lang" id="languages">
+          <h2 class="section-title">Languages:</h2>
+          <p>Russian</p>
+        </section>      
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <div>© 2022 <a href="https://github.com/ArtyoumStar" class="github nav-link">ArtyoumStar</a></div>
+        <a href="https://rs.school/js/" class="rss"></a>     
+      </div>
+    </footer>
 </body>
 </html>
