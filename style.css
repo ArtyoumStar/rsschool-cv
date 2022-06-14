@@ -7,6 +7,7 @@ html {
 }
 
 body {
+    background-color: #dbcbcb4b;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,7 +19,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: #2b006c;
+    color: #000000;
 }
 
 .container {
@@ -28,7 +29,7 @@ body {
 }
 
 .header {
-    background-color: #3538359d;
+    background-color: #080808b6;
 }
 
 .nav-list {
@@ -44,7 +45,7 @@ body {
     font-size: 20px;
     font-weight: 300;
     line-height: 50px;
-    color: #ffffff;
+    color: #bd7f0d;
     text-decoration: none;
 }
 
@@ -55,7 +56,7 @@ body {
     bottom: -5px;
     width: calc(100%-24px);
     height: 2px;
-    background-color: #fff;
+    background-color: #bd7f0d;
     opacity: 0;
     transition: 0.5s;
 
@@ -91,13 +92,12 @@ body {
     width: calc(50% - 20px);
     padding: 10px;
     padding-bottom: 35px;
-    border-bottom: 1px solid #672f2f;
+    border-bottom: 1px solid #bd7f0d;
 }
 
-/* .section-education,
-.section-english {
-  border-bottom: 0;
-} */
+.section-cour, .section-lang {
+    border-bottom: 0;
+}
 
 .section-title {
     margin-bottom: 20px;
@@ -105,15 +105,14 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: aqua;
+    color: #bd7f0d;
 }
 
 .section-profile {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     padding: 50px 30px 35px;
-    border-bottom: 15px solid #3538359d;
 }
 
 .pre {
@@ -134,7 +133,7 @@ body {
     position: relative;
     padding: 0;
     margin-bottom: 20px;
-    color: #6c0069;
+    color: #832080;
     font-size: 32px;
     font-weight: 300;
     letter-spacing: 10px;
@@ -145,12 +144,12 @@ body {
 .main-title::after {
     content: "";
     position: absolute;
-    bottom: -19px;
-    left: 50%;
+    bottom: -5px;
+    left: 14.5%;
     margin-left: -70px;
-    width: 140px;
+    width: 450px;
     height: 2px;
-    background-color: #15e030;  
+    background-color: #bd7f0d;  
 }
 
 .section-subtitle {
@@ -168,6 +167,7 @@ body {
     border-radius: 50%;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
     filter: grayscale(0.2) brightness(1.05);
+    border: 5px solid #bd7f0d;
     transition: 0.3s;
 }
 
@@ -197,16 +197,16 @@ body {
     height: 14px; 
     background-size: 14px 14px;
     background-image: url("assests/svg/1.svg");
-  }
+}
 
 .section-item a {
     text-decoration: none;
-    color: #ed8013;
+    color: #bd7f0d;
     transition: color 0.5s;
 }
 
 .section-item a:hover {
-    color: #e01515;
+    color: #15c1e0;
 }
 
 .contacts-item:before {
@@ -279,40 +279,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.toggle {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    margin-top: 5px;
-    margin-left: auto;
-    cursor: pointer;
-    user-select: none;
-    z-index: 15;
-}
-
-.toggle div {
-    width: 80%;
-    height: 2px;
-    background: #fff;
-    margin: 3px 0;
-    z-index: 15;
-}
-
-.toggle.collapsed .line1 {
-    transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle.collapsed .line2 {
-    opacity: 0;
-}
-
-.toggle.collapsed .line3 {
-    transform: rotate(45deg) translate(-5px, -6px);
-}
-
 @media (max-width: 1440px) {
     .container {
       padding: 0 20px;
@@ -323,24 +289,26 @@ body {
     .section {
         width: 100%;
     }
+
     .section-profile {
         flex-direction: column;
         align-items: center;
     }
+
     .section-education {
         border-bottom: 1px solid #672f2f;
     }
+
     .footer-container {
         flex-direction: column;
         align-items: center;
     }
+
     .nav {
         display: none;
       }
-      .toggle {
-        display: flex;
-      }
-      .nav.collapsed {
+
+    .nav.collapsed {
         position: absolute;
         left: 0;
         top: 0;
@@ -351,8 +319,8 @@ body {
         min-height: 525px;
         flex-direction: column;
         background-color: #829985;
-      }
-      .nav-list.collapsed {
+    }
+    .nav-list.collapsed {
         display: flex;
         align-items: center;
         justify-content: flex-start;
@@ -360,7 +328,7 @@ body {
         height: 100%;
         flex-direction: column;
         padding-top: 50px;
-      }  
+    }  
 }
 
 
