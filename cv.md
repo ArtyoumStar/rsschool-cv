@@ -24,3 +24,9 @@ function multiply(a, b){
 ## Work experience:
 _Nothing yet…_
 ***
+## Education:
+Polotsk State Economic College.
+***
+## Language:
+* Russian
+* English - bad
