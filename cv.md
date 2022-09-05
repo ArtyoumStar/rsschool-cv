@@ -7,8 +7,7 @@
 * __Email:__ deathgun@tut.by
 * __Github:__ [ArtyoumStar](https://github.com/ArtyoumStar)
 * __Discord:__ Artyom(@ArtyoumStar)
-
-***
+---
 ## About Me:
 I want to try myself in front-end development. Decided to take the course RSSchool.
 ***
