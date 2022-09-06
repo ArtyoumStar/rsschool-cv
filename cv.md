@@ -10,10 +10,10 @@
 ---
 ## About Me:
 I want to try myself in front-end development. Decided to take the course RSSchool.
-***
+---
 ## Skills:
 _No skills_
-***
+---
 ## Code:
 ```
 function multiply(a, b){
@@ -23,10 +23,10 @@ function multiply(a, b){
 ***
 ## Work experience:
 _Nothing yet…_
-***
+---
 ## Education:
 Polotsk State Economic College.
-***
+---
 ## Language:
 * Russian
 * English - bad
