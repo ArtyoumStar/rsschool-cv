@@ -20,7 +20,7 @@ function multiply(a, b){
   a * b
 }
 ```
-**********
+***********
 ## Work experience:
 _Nothing yet…_
 **********
