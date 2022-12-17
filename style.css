@@ -77,6 +77,10 @@ body{
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
+.header__container{
+  background: rgb(49, 125, 150);
+}
+
 .nav{
   border-bottom: 5px solid gray;
   padding-right: 15px;
@@ -165,6 +169,142 @@ body{
   font-size: 0.8em;
   font-weight: 300;
 }
+
+.contacts__info{
+  padding-top: 40px;
+}
+
+.contacts__info-title{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+
+}
+
+.contact__info-list{
+  position: relative;
+}
+
+.contact__info-item{
+  color: #fff;
+  position: relative;
+  margin: 10px;
+  font-weight: 300;
+}
+
+.contact__info-item-ico{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+
+.contact__info-item-svg{
+  display: flex;
+}
+
+.contact__info-item-link{
+  color: #03a9f4;
+  transition: color 0.5s;
+}
+
+.contact__info-item-link:hover{
+  color: rgb(213, 184, 150);
+}
+
+.education__info{
+  padding-top: 40px;
+}
+
+.education__info-title{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.education__info-item{
+  margin-bottom: 15px;
+}
+
+.education__info-item h5{
+  color: #03a9f4;
+  font-weight: 500;
+}
+
+.education__info-item-itf{
+  color: #fff;
+  font-weight: 500;
+}
+
+.education__info-item-psec{
+  color: #fff;
+  font-weight: 300;
+}
+
+.language__info{
+  margin-top: 40px;
+  color: #fff;
+}
+
+.language__info-title{
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.language__info-item{
+  margin: 10px 0;
+}
+
+.language__info-text{
+  font-weight: 300;
+}
+
+.language__info-precent{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: #081921;
+  display: block;
+  margin-top: 5px;
+}
+
+.language__info-precent-style-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background: #03a9f4;
+}
+
+.language__info-precent-style-2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  background: #03a9f4;
+}
+
+.language__info-precent-style-3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  background: #03a9f4;
+}
+
+.main__container-right{
+  background: #fff;
+}
+
 
 
 
