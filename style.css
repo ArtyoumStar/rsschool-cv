@@ -482,6 +482,31 @@ body{
 .rss path{
   fill: #003147;
   stroke: yellow;
+}
+
+@media (max-width: 900px){
+  .container{
+    margin: 0px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 650px){
+  .nav{
+    display: none;
+  }
+}
+
+
+@media (max-width: 550px){
+  .interests__info-list{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills__info-box{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 
 
